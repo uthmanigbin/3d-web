@@ -1,0 +1,35 @@
+#container {
+  position: absolute;
+  width: 1200px;
+  height: 800px;
+  border: 2px solid #000000;
+  /* adds debt so the computer knows the debth */
+  perspective: 600px;
+  overflow: hidden;
+}
+
+#world {
+  position: absolute;
+  /* makes width and height the same as the parent div */
+  width: inherit;
+  height: inherit;
+  /* background-color: aqua; */
+  /* makes the element a 3d element */
+  transform-style: preserve-3d;
+}
+
+.square {
+  position: absolute;
+  
+}
+
+#pawn {
+  display: none;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 600px;
+  top: 400px;
+  transform: translate(-50%, -50%);
+  background-color: aqua;
+}
